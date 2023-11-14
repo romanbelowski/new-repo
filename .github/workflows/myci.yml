@@ -27,5 +27,7 @@ jobs:
 
       # Runs a bash script from file
       - name: Run a name.sh
-        run: ./name.sh
+        run: | 
+            chmod +x name.sh
+            ./name.sh
 
